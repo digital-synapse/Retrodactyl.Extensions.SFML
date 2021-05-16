@@ -9,6 +9,8 @@
     <PackageTags>Retrodactyl</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>digital-synapse</Authors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(DesignTimeBuild)' != 'true'">
     <PackageVersion>$([System.DateTime]::Now.ToString("yyyy.MM.dd.HHmmss"))</PackageVersion>
   </PropertyGroup>
 
