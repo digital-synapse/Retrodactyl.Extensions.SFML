@@ -8,6 +8,8 @@
     <RepositoryUrl>https://github.com/digital-synapse/Retrodactyl.Extensions.SFML</RepositoryUrl>
     <PackageTags>Retrodactyl</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>digital-synapse</Authors>
+    <PackageVersion>$([System.DateTime]::Now.ToString("yyyy.MM.dd.HHmmss"))</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>

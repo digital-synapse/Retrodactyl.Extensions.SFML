@@ -6,7 +6,7 @@ namespace Retrodactyl.Extensions.SFML
 {
     public static class ImageExtensions
     {
-
+        
         public static Image Map(this Image img, Func<Color, Color> mapFn)
         {
             for (uint yy = 0; yy < img.Size.Y; yy++)

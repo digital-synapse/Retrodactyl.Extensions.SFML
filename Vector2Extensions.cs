@@ -53,6 +53,10 @@ namespace Retrodactyl.Extensions.SFML
         {
             return new Vector2f(MathF.Abs(v.X), MathF.Abs(v.Y));
         }
+        public static float Dot(this Vector2f a, Vector2f b)
+        {
+            return a.X * b.X + a.Y * b.Y;
+        }
         public static float Dist(this Vector2f a, Vector2f b)
         {
             var x = b.X - a.X;
